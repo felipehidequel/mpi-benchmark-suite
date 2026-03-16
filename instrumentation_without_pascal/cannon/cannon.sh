@@ -6,9 +6,9 @@ OUTPUT="resultados_cannon.txt"
 echo "INICIANDO BENCHMARK EM $(date)" > $OUTPUT
 echo "------------------------------------------" >> $OUTPUT
 
-TAMANHOS=(500 1000 2000)
+TAMANHOS=(2048 2560 3072 3584)
 
-PROCESSOS=(4 9 16)
+PROCESSOS=(4 16 36 64)
 
 for NP in "${PROCESSOS[@]}"
 do
