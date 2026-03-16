@@ -1,0 +1,140 @@
+INICIANDO BENCHMARK EM Mon Mar 16 10:06:00 AM -03 2026
+------------------------------------------
+### CONFIGURAÇÃO: 4 PROCESSOS ###
+Tamanho da Matriz: 500
+
+==========================================
+RELATÓRIO DE EXECUÇÃO
+Matriz: 500 x 500 | Processos: 4
+------------------------------------------
+Tempo Inicialização:   0.000577 s
+Tempo Alinhamento:     0.000833 s
+Tempo Loop Principal:  0.028863 s
+  |_ Somente Cálculo:  0.024674 s
+  |_ Somente Mensagens: 0.004189 s
+------------------------------------------
+TEMPO TOTAL:           0.030273 s
+==========================================
+------------------------------------------
+Tamanho da Matriz: 1000
+
+==========================================
+RELATÓRIO DE EXECUÇÃO
+Matriz: 1000 x 1000 | Processos: 4
+------------------------------------------
+Tempo Inicialização:   0.003916 s
+Tempo Alinhamento:     0.009541 s
+Tempo Loop Principal:  0.216015 s
+  |_ Somente Cálculo:  0.206299 s
+  |_ Somente Mensagens: 0.009714 s
+------------------------------------------
+TEMPO TOTAL:           0.229473 s
+==========================================
+------------------------------------------
+Tamanho da Matriz: 2000
+
+==========================================
+RELATÓRIO DE EXECUÇÃO
+Matriz: 2000 x 2000 | Processos: 4
+------------------------------------------
+Tempo Inicialização:   0.015039 s
+Tempo Alinhamento:     0.032575 s
+Tempo Loop Principal:  4.370809 s
+  |_ Somente Cálculo:  4.338977 s
+  |_ Somente Mensagens: 0.031830 s
+------------------------------------------
+TEMPO TOTAL:           4.418424 s
+==========================================
+------------------------------------------
+### CONFIGURAÇÃO: 9 PROCESSOS ###
+Tamanho da Matriz: 500
+
+==========================================
+RELATÓRIO DE EXECUÇÃO
+Matriz: 500 x 500 | Processos: 9
+------------------------------------------
+Tempo Inicialização:   0.000302 s
+Tempo Alinhamento:     0.000397 s
+Tempo Loop Principal:  0.094652 s
+  |_ Somente Cálculo:  0.079878 s
+  |_ Somente Mensagens: 0.014772 s
+------------------------------------------
+TEMPO TOTAL:           0.095351 s
+==========================================
+------------------------------------------
+Tamanho da Matriz: 1000
+
+==========================================
+RELATÓRIO DE EXECUÇÃO
+Matriz: 1000 x 1000 | Processos: 9
+------------------------------------------
+Tempo Inicialização:   0.001167 s
+Tempo Alinhamento:     0.002158 s
+Tempo Loop Principal:  0.297905 s
+  |_ Somente Cálculo:  0.185472 s
+  |_ Somente Mensagens: 0.112432 s
+------------------------------------------
+TEMPO TOTAL:           0.301230 s
+==========================================
+------------------------------------------
+Tamanho da Matriz: 2000
+
+==========================================
+RELATÓRIO DE EXECUÇÃO
+Matriz: 2000 x 2000 | Processos: 9
+------------------------------------------
+Tempo Inicialização:   0.005150 s
+Tempo Alinhamento:     0.013870 s
+Tempo Loop Principal:  4.413956 s
+  |_ Somente Cálculo:  3.897605 s
+  |_ Somente Mensagens: 0.516347 s
+------------------------------------------
+TEMPO TOTAL:           4.432975 s
+==========================================
+------------------------------------------
+### CONFIGURAÇÃO: 16 PROCESSOS ###
+Tamanho da Matriz: 500
+
+==========================================
+RELATÓRIO DE EXECUÇÃO
+Matriz: 500 x 500 | Processos: 16
+------------------------------------------
+Tempo Inicialização:   0.000137 s
+Tempo Alinhamento:     0.000152 s
+Tempo Loop Principal:  0.081590 s
+  |_ Somente Cálculo:  0.024092 s
+  |_ Somente Mensagens: 0.057496 s
+------------------------------------------
+TEMPO TOTAL:           0.081878 s
+==========================================
+------------------------------------------
+Tamanho da Matriz: 1000
+
+==========================================
+RELATÓRIO DE EXECUÇÃO
+Matriz: 1000 x 1000 | Processos: 16
+------------------------------------------
+Tempo Inicialização:   0.000810 s
+Tempo Alinhamento:     0.001348 s
+Tempo Loop Principal:  0.311296 s
+  |_ Somente Cálculo:  0.109908 s
+  |_ Somente Mensagens: 0.201385 s
+------------------------------------------
+TEMPO TOTAL:           0.313454 s
+==========================================
+------------------------------------------
+Tamanho da Matriz: 2000
+
+==========================================
+RELATÓRIO DE EXECUÇÃO
+Matriz: 2000 x 2000 | Processos: 16
+------------------------------------------
+Tempo Inicialização:   0.003119 s
+Tempo Alinhamento:     0.007482 s
+Tempo Loop Principal:  3.245902 s
+  |_ Somente Cálculo:  2.210800 s
+  |_ Somente Mensagens: 1.035098 s
+------------------------------------------
+TEMPO TOTAL:           3.256504 s
+==========================================
+------------------------------------------
